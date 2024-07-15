@@ -13,7 +13,7 @@ let playlist = ['Uptown Funk', 'Happy', 'Downtown'];
 let removed= playlist.pop()
 playlist.push('Dynamite')
 console.log(playlist)
-*/
+
 
 let tasks = ['Read a book', 'Play sports', 'Wash dishes'];
 
@@ -21,3 +21,9 @@ let tasks = ['Read a book', 'Play sports', 'Wash dishes'];
 let removed = tasks.shift();
  tasks.unshift('Feed the cat')
 console.log(tasks)
+*/
+const jackScores = [85, 92, 78, 100, 89];
+
+// Write code here
+
+console.log(jackScores.includes(100))
