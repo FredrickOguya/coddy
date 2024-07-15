@@ -27,7 +27,14 @@ const jackScores = [85, 92, 78, 100, 89];
 // Write code here
 
 console.log(jackScores.includes(100))
-*/
+
 let secretWord = ['h', 'c', 'e', 't', 'y', 'd', 'd', 'o', 'c'];
 // Write code here
 console.log(secretWord.reverse().join(''))
+*/
+let chocolates = [3, 4, 7, 2];
+
+// Write code here
+newArray = [];
+chocolates.forEach((chocolate)=>{newArray.push(chocolate*=2)})
+console.log(newArray)
