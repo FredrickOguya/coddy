@@ -70,9 +70,16 @@ const marketPrices = [10, 5, 20, 12, 8];
 // Write code here
 const newPrice = marketPrices.sort((a,b)=> a-b)
 console.log(newPrice)
-*/
+
 let students = [ 'Jack', 'Jinee', 'Hook', 'Zohie', 'John' ];
 
 // Write code here
 let thirdAndForth = students.slice(1,3)
 console.log(thirdAndForth)
+*/
+let numbers = [ 99, 32, 43, 54, 100];
+
+// Write code here
+
+let newNumbers = numbers.splice(numbers.length-3,numbers.length-1,"a",'b','c')
+console.log(numbers)
