@@ -56,7 +56,7 @@ const friends = [
   
   const onlineFriends= friends.filter((filter)=>filter.online===true)
   console.log(onlineFriends)
-*/  
+
 const inventory = [5, 3, 2, 1];
 
 // Write code here
@@ -64,3 +64,9 @@ const inventory = [5, 3, 2, 1];
 const newInventory = inventory.map(numbers=>numbers*2)
 
 console.log (newInventory)
+*/  
+const marketPrices = [10, 5, 20, 12, 8];
+
+// Write code here
+const newPrice = marketPrices.sort((a,b)=> a-b)
+console.log(newPrice)
