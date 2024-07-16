@@ -76,10 +76,22 @@ let students = [ 'Jack', 'Jinee', 'Hook', 'Zohie', 'John' ];
 // Write code here
 let thirdAndForth = students.slice(1,3)
 console.log(thirdAndForth)
-*/
+
 let numbers = [ 99, 32, 43, 54, 100];
 
 // Write code here
 
 let newNumbers = numbers.splice(numbers.length-3,numbers.length-1,"a",'b','c')
 console.log(numbers)
+*/
+// Write code here
+
+const team = ['fred','jack','javan','kinyaa','william']
+
+const removed = team.pop();
+
+const newTeam = team.push('joe','maxi');
+
+const qualified = team.shift()
+
+console.log(team.length)
