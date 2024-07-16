@@ -64,9 +64,15 @@ const inventory = [5, 3, 2, 1];
 const newInventory = inventory.map(numbers=>numbers*2)
 
 console.log (newInventory)
-*/  
+  
 const marketPrices = [10, 5, 20, 12, 8];
 
 // Write code here
 const newPrice = marketPrices.sort((a,b)=> a-b)
 console.log(newPrice)
+*/
+let students = [ 'Jack', 'Jinee', 'Hook', 'Zohie', 'John' ];
+
+// Write code here
+let thirdAndForth = students.slice(1,3)
+console.log(thirdAndForth)
