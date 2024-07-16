@@ -38,9 +38,29 @@ let chocolates = [3, 4, 7, 2];
 newArray = [];
 chocolates.forEach((chocolate)=>{newArray.push(chocolate*=2)})
 console.log(newArray)
-*/
+
 const scores = [75, 88, 62, 92, 55];
 
 // Write code here
 
 console.log(scores.find((number)=>number>90))
+
+const friends = [
+    { name: "Alice", online: true },
+    { name: "Bob", online: false },
+    { name: "Charlie", online: true },
+    { name: "David", online: false }
+  ];
+  
+  // Write code here
+  
+  const onlineFriends= friends.filter((filter)=>filter.online===true)
+  console.log(onlineFriends)
+*/  
+const inventory = [5, 3, 2, 1];
+
+// Write code here
+
+const newInventory = inventory.map(numbers=>numbers*2)
+
+console.log (newInventory)
