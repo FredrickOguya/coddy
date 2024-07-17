@@ -83,7 +83,7 @@ let numbers = [ 99, 32, 43, 54, 100];
 
 let newNumbers = numbers.splice(numbers.length-3,numbers.length-1,"a",'b','c')
 console.log(numbers)
-*/
+
 // Write code here
 
 const team = ['fred','jack','javan','kinyaa','william']
@@ -95,3 +95,15 @@ const newTeam = team.push('joe','maxi');
 const qualified = team.shift()
 
 console.log(team.length)
+
+const prices = [199.99, 249.50, 79.99, 12.50, 8.99, 350.75];
+
+// Write code here
+
+let newPrices=prices.map((numbers)=>Math.round(numbers))
+const pricesUndere200 = newPrices.filter(price=>price<200)
+let newPricesUnder = pricesUndere200.sort((a,b)=>a-b)
+let newPrice = []
+newPricesUnder.forEach(price=>newPrice.push(`${Math.round(price*0.9)}`))
+console.log(newPrice)
+*/
