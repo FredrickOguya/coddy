@@ -108,12 +108,16 @@ newPricesUnder.forEach(price=>newPrice.push(`${Math.round(price*0.9)}`))
 console.log(newPrice)
 */
 function trial(num){
-  const age = num
-// Write your code below
-
-let numbers = parseFloat(120);
- let rem = numbers-parseFloat(age)
-
- console.log(`${rem} years till 120`)
+  
+  // Write your code below
+  if(num ===1){
+      console.log('T')
+  }else if(num === 0){
+      console.log('F')
+  }else if(num>1){
+      console.log('P')
+  }else if(num<0){
+      console.log('N')
+  }
 }
-console.log(trial(25.5))
+console.log(trial(1))
