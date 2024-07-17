@@ -108,31 +108,12 @@ newPricesUnder.forEach(price=>newPrice.push(`${Math.round(price*0.9)}`))
 console.log(newPrice)
 */
 function trial(num){
-  const day = num
-let dayName = ""
+  const age = num
 // Write your code below
 
-switch(day){
-     case 1:
-          dayName="Monday";
-          break;
-     case 2:
-          dayName="Tuesday";
-          break;
-     case 3:
-          dayName="Wednesday";
-          break;
-     case 4:
-          dayName="Thursday";
-          break;
-     case 5:
-          dayName="Friday";
-          break;
-     default:
-          dayName="Weekend";
-}
-console.log(dayName)
+let numbers = parseFloat(120);
+ let rem = numbers-parseFloat(age)
 
-     
+ console.log(`${rem} years till 120`)
 }
-console.log((8))
+console.log(trial(25.5))
