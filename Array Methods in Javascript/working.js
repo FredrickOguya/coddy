@@ -107,3 +107,32 @@ let newPrice = []
 newPricesUnder.forEach(price=>newPrice.push(`${Math.round(price*0.9)}`))
 console.log(newPrice)
 */
+function trial(num){
+  const day = num
+let dayName = ""
+// Write your code below
+
+switch(day){
+     case 1:
+          dayName="Monday";
+          break;
+     case 2:
+          dayName="Tuesday";
+          break;
+     case 3:
+          dayName="Wednesday";
+          break;
+     case 4:
+          dayName="Thursday";
+          break;
+     case 5:
+          dayName="Friday";
+          break;
+     default:
+          dayName="Weekend";
+}
+console.log(dayName)
+
+     
+}
+console.log((8))
