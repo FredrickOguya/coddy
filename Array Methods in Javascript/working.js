@@ -138,7 +138,7 @@ for (let i = 1; i < 21; i++) {
     }
 	console.log(i)
 }
-*/
+
 function trial(n){
     let ne=1
     for (let i=1;i<n;i++){
@@ -150,3 +150,21 @@ function trial(n){
     
 }
 trial(8)
+*/
+const n = 5
+
+
+function sum_numbers() {
+	// Write your code here
+    let sum=0
+    for (let i = 0; i < n + 1; i++) {
+        sum +=i
+    }
+    
+    console.log(sum)
+    
+}
+
+for (let i = 0; i < n; i++) {
+	sum_numbers()
+}
