@@ -131,10 +131,22 @@ for (let i = 1; i < 29; i ++) {
         break;}
     console.log(i)
 }
-*/
+
 for (let i = 1; i < 21; i++) {
     if(i%2===1){
         continue
     }
 	console.log(i)
 }
+*/
+function trial(n){
+    let ne=1
+    for (let i=1;i<n;i++){
+        ne*=i
+      
+        
+    }
+    console.log(ne*n)
+    
+}
+trial(8)
