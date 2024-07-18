@@ -150,7 +150,7 @@ function trial(n){
     
 }
 trial(8)
-*/
+
 const n = 5
 
 
@@ -168,3 +168,9 @@ function sum_numbers() {
 for (let i = 0; i < n; i++) {
 	sum_numbers()
 }
+*/
+function mult(a, b) {
+    // write your code here
+    console.log((a * b / (a + b)) % 52)
+}
+mult(1,2)
