@@ -108,16 +108,20 @@ newPricesUnder.forEach(price=>newPrice.push(`${Math.round(price*0.9)}`))
 console.log(newPrice)
 */
 function trial(num){
-  
-  // Write your code below
-  if(num ===1){
-      console.log('T')
-  }else if(num === 0){
-      console.log('F')
-  }else if(num>1){
-      console.log('P')
-  }else if(num<0){
-      console.log('N')
-  }
+    // Write your code below
+    switch(true){
+        case num ===1:
+        console.log('T');
+        break;
+        case num ===0:
+        console.log('F');
+        break;
+        case num>1:
+        console.log('P')
+        break;
+        case num<0:
+        console.log('N')
+        break;
+    }
 }
-console.log(trial(1))
+trial(-46)
