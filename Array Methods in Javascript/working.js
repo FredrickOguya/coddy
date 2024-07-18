@@ -106,7 +106,7 @@ let newPricesUnder = pricesUndere200.sort((a,b)=>a-b)
 let newPrice = []
 newPricesUnder.forEach(price=>newPrice.push(`${Math.round(price*0.9)}`))
 console.log(newPrice)
-*/
+
 function trial(num){
     // Write your code below
     switch(true){
@@ -125,3 +125,9 @@ function trial(num){
     }
 }
 trial(-46)
+*/
+for (let i = 1; i < 29; i ++) {
+    if(i === 9){
+        break;}
+    console.log(i)
+}
