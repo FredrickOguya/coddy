@@ -125,9 +125,16 @@ function trial(num){
     }
 }
 trial(-46)
-*/
+
 for (let i = 1; i < 29; i ++) {
     if(i === 9){
         break;}
     console.log(i)
+}
+*/
+for (let i = 1; i < 21; i++) {
+    if(i%2===1){
+        continue
+    }
+	console.log(i)
 }
