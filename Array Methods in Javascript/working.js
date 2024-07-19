@@ -168,9 +168,39 @@ function sum_numbers() {
 for (let i = 0; i < n; i++) {
 	sum_numbers()
 }
-*/
+
 function mult(a, b) {
     // write your code here
     console.log((a * b / (a + b)) % 52)
 }
 mult(1,2)
+*/
+const iterations = 5
+let num1 = 45
+let num2 = 42
+
+
+function bigger(arg1, arg2) {
+    // write your code here
+    if (arg1 > arg2) {
+        return arg1
+    } else {
+        return arg2
+    }
+}
+
+for (let i = 0; i < iterations; i ++) {
+    // write your code here
+     if (num1 < 2 || num2 < 2) {
+        break
+     }
+    big = bigger(num1, num2)
+    if (big == num1) {
+        num1 /= 2
+        console.log(num1)
+    } else {
+        num2 /= 2
+        console.log(num2)
+    }
+}
+    
