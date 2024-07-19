@@ -174,7 +174,7 @@ function mult(a, b) {
     console.log((a * b / (a + b)) % 52)
 }
 mult(1,2)
-*/
+
 const iterations = 5
 let num1 = 45
 let num2 = 42
@@ -204,3 +204,14 @@ for (let i = 0; i < iterations; i ++) {
     }
 }
     
+*/
+
+function rev(arr) {
+    // Write code here
+    let newArr = []
+    for (let i=arr.length-1;i>-1;i--){
+        newArr.push(arr[i])
+    }
+    return newArr
+}
+console.log(rev([1, 2, 3]))
