@@ -204,7 +204,7 @@ for (let i = 0; i < iterations; i ++) {
     }
 }
     
-*/
+
 
 function rev(arr) {
     // Write code here
@@ -215,3 +215,10 @@ function rev(arr) {
     return newArr
 }
 console.log(rev([1, 2, 3]))
+
+function reverseString(str) {
+    // write your code below
+   return str.split('').reverse().join('')
+}
+console.log(reverseString('Hello'))
+*/
