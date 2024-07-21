@@ -222,3 +222,22 @@ function reverseString(str) {
 }
 console.log(reverseString('Hello'))
 */
+
+function starPyramyd(n){
+    let string = ''
+    for (let i=1;i<n;i++){
+        for(let j=n-i;j>1;j--){
+             string+=` `
+             
+        }
+        for (let k=0;k<i;k++){
+            string+=`l`
+        }
+        for (let k=1;k<i;k++){
+            string+=`l`
+        }
+       string+=`\n`
+    }
+ console.log(string)
+}
+starPyramyd(5)
